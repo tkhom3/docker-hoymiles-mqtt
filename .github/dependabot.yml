@@ -20,3 +20,11 @@ updates:
     labels:
       - "release/patch"
       
+  # Maintain dependencies for npm
+  - package-ecosystem: "pip"
+    # Look for a `requirements.txt` in the `root` directory
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "release/patch"
