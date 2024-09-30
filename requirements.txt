@@ -1,1 +1,1 @@
-hoymiles-mqtt==0.8.0
+hoymiles-mqtt==0.8.1
